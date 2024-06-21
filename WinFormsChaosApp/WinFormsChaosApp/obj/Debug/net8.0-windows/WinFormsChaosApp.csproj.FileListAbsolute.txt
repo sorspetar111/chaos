@@ -1,0 +1,17 @@
+C:\DW\Work\chaos\CSharpSeniorTask\WinFormsChaosApp\WinFormsChaosApp\bin\Debug\net8.0-windows\WinFormsChaosApp.exe
+C:\DW\Work\chaos\CSharpSeniorTask\WinFormsChaosApp\WinFormsChaosApp\bin\Debug\net8.0-windows\WinFormsChaosApp.deps.json
+C:\DW\Work\chaos\CSharpSeniorTask\WinFormsChaosApp\WinFormsChaosApp\bin\Debug\net8.0-windows\WinFormsChaosApp.runtimeconfig.json
+C:\DW\Work\chaos\CSharpSeniorTask\WinFormsChaosApp\WinFormsChaosApp\bin\Debug\net8.0-windows\WinFormsChaosApp.dll
+C:\DW\Work\chaos\CSharpSeniorTask\WinFormsChaosApp\WinFormsChaosApp\bin\Debug\net8.0-windows\WinFormsChaosApp.pdb
+C:\DW\Work\chaos\CSharpSeniorTask\WinFormsChaosApp\WinFormsChaosApp\obj\Debug\net8.0-windows\WinFormsChaosApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\DW\Work\chaos\CSharpSeniorTask\WinFormsChaosApp\WinFormsChaosApp\obj\Debug\net8.0-windows\WinFormsChaosApp.AssemblyInfoInputs.cache
+C:\DW\Work\chaos\CSharpSeniorTask\WinFormsChaosApp\WinFormsChaosApp\obj\Debug\net8.0-windows\WinFormsChaosApp.AssemblyInfo.cs
+C:\DW\Work\chaos\CSharpSeniorTask\WinFormsChaosApp\WinFormsChaosApp\obj\Debug\net8.0-windows\WinFormsChaosApp.csproj.CoreCompileInputs.cache
+C:\DW\Work\chaos\CSharpSeniorTask\WinFormsChaosApp\WinFormsChaosApp\obj\Debug\net8.0-windows\WinFormsChaosApp.dll
+C:\DW\Work\chaos\CSharpSeniorTask\WinFormsChaosApp\WinFormsChaosApp\obj\Debug\net8.0-windows\refint\WinFormsChaosApp.dll
+C:\DW\Work\chaos\CSharpSeniorTask\WinFormsChaosApp\WinFormsChaosApp\obj\Debug\net8.0-windows\WinFormsChaosApp.pdb
+C:\DW\Work\chaos\CSharpSeniorTask\WinFormsChaosApp\WinFormsChaosApp\obj\Debug\net8.0-windows\WinFormsChaosApp.genruntimeconfig.cache
+C:\DW\Work\chaos\CSharpSeniorTask\WinFormsChaosApp\WinFormsChaosApp\obj\Debug\net8.0-windows\ref\WinFormsChaosApp.dll
+C:\DW\Work\chaos\CSharpSeniorTask\WinFormsChaosApp\WinFormsChaosApp\obj\Debug\net8.0-windows\WinFormsChaosApp.Form1.resources
+C:\DW\Work\chaos\CSharpSeniorTask\WinFormsChaosApp\WinFormsChaosApp\obj\Debug\net8.0-windows\WinFormsChaosApp.csproj.GenerateResource.cache
+C:\DW\Work\chaos\CSharpSeniorTask\WinFormsChaosApp\WinFormsChaosApp\bin\Debug\net8.0-windows\Lib\vrmat.dll

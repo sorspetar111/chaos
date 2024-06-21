@@ -1,0 +1,743 @@
+<vrmat>
+	<Asset renderer="vray" url="/CarPaint_Flakes_CobaltBlue/Base/NoiseA/UVWGenChannel#1" type="uvw" layout="">
+		<plugin>
+			<vrayplugin version="16" type="uvw" name="UVWGenObject">
+				<parameters>
+					<parameter handler="default" listType="none" type="float" name="duvw_scale" label="duvw_scale">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="transform" name="uvw_transform" label="uvw_transform">
+						<value>
+							<vector>
+								<x>1</x>
+								<y>0</y>
+								<z>0</z>
+							</vector>
+							<vector>
+								<x>0</x>
+								<y>1</y>
+								<z>0</z>
+							</vector>
+							<vector>
+								<x>0</x>
+								<y>0</y>
+								<z>1</z>
+							</vector>
+							<vector>
+								<x>0</x>
+								<y>0</y>
+								<z>0</z>
+							</vector>
+						</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="bool" name="lock_repeat" label="lock_repeat" isUserData="1">
+						<value>0</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="rotation_x" label="rotation_x" isUserData="1">
+						<value>0</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="rotation_y" label="rotation_y" isUserData="1">
+						<value>0</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="rotation_z" label="rotation_z" isUserData="1">
+						<value>0</value>
+					</parameter>
+				</parameters>
+			</vrayplugin>
+		</plugin>
+	</Asset>
+	<Asset renderer="vray" url="/CarPaint_Flakes_CobaltBlue/Base/NoiseA" type="texture" layout="">
+		<plugin>
+			<vrayplugin version="16" type="texture" name="TexNoise">
+				<parameters>
+					<parameter handler="default" listType="none" type="integer" name="alpha_from_intensity" label="alpha_from_intensity">
+						<value>0</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="float texture" name="alpha_mult" label="alpha_mult">
+						<value/>
+					</parameter>
+					<parameter handler="default" listType="none" type="float texture" name="alpha_offset" label="alpha_offset">
+						<value/>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="amplitude1" label="amplitude1">
+						<value>0.2</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="amplitude_mult" label="amplitude_mult">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="amplitude_ratio" label="amplitude_ratio">
+						<value>0.1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="bias" label="bias">
+						<value>0</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="bool" name="clamp" label="clamp">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="output acolor texture" name="color" label="color">
+						<value/>
+					</parameter>
+					<parameter handler="default" listType="none" type="color" name="color1" label="color1">
+						<value>
+							<r>0</r>
+							<g>0</g>
+							<b>0</b>
+						</value>
+					</parameter>
+					<parameter handler="ColorTexFrameHandler" listType="none" type="color texture" name="color1_tex" label="color1_tex">
+						<value>
+							<r>1</r>
+							<g>1</g>
+							<b>1</b>
+						</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="color1_tex_mult" label="color1_tex_mult">
+						<value>1.0</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="color" name="color2" label="color2">
+						<value>
+							<r>0</r>
+							<g>0</g>
+							<b>0</b>
+						</value>
+					</parameter>
+					<parameter handler="ColorTexFrameHandler" listType="none" type="color texture" name="color2_tex" label="color2_tex">
+						<value>
+							<r>0</r>
+							<g>0</g>
+							<b>0</b>
+						</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="color2_tex_mult" label="color2_tex_mult">
+						<value>1.0</value>
+					</parameter>
+					<parameter handler="ColorTexFrameHandler" listType="none" type="texture" name="color_mult" label="color_mult">
+						<value>
+							<r>1</r>
+							<g>1</g>
+							<b>1</b>
+						</value>
+					</parameter>
+					<parameter handler="ColorTexFrameHandler" listType="none" type="texture" name="color_offset" label="color_offset">
+						<value>
+							<r>0</r>
+							<g>0</g>
+							<b>0</b>
+						</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="integer" name="compatibility_with" label="compatibility_with">
+						<value>0</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="integer" name="dimensions" label="dimensions">
+						<value>3</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="frequency1" label="frequency1">
+						<value>6</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="frequency_mult" label="frequency_mult">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="frequency_ratio" label="frequency_ratio">
+						<value>4</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="h" label="h">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="float texture" name="implode" label="implode">
+						<value/>
+					</parameter>
+					<parameter handler="default" listType="none" type="texture" name="implode_center" label="implode_center">
+						<value/>
+					</parameter>
+					<parameter handler="default" listType="none" type="integer" name="inflection" label="inflection">
+						<value>0</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="bool" name="invert" label="invert">
+						<value>0</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="bool" name="invert_alpha" label="invert_alpha">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="jitter" label="jitter">
+						<value>0</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="mix_ratio" label="mix_ratio">
+						<value>0.5</value>
+					</parameter>
+					<parameter handler="ComboBoxHandler" listType="none" type="integer" name="noiseType" label="noiseType">
+						<value>1</value>
+					</parameter>
+					<parameter handler="ColorTexFrameHandler" listType="none" type="texture" name="nouvw_color" label="nouvw_color">
+						<value>
+							<r>0.5</r>
+							<g>0.5</g>
+							<b>0.5</b>
+						</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="integer" name="octaves" label="octaves">
+						<value>3</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="texture" name="origin" label="origin">
+						<value/>
+					</parameter>
+					<parameter handler="default" listType="none" type="output float texture" name="out_alpha" label="out_alpha">
+						<value/>
+					</parameter>
+					<parameter handler="default" listType="none" type="output float texture" name="out_intensity" label="out_intensity">
+						<value/>
+					</parameter>
+					<parameter handler="default" listType="none" type="output acolor texture" name="out_transparency" label="out_transparency">
+						<value/>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="persistence" label="persistence">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="integer" name="placement_type" label="placement_type">
+						<value>0</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="texture" name="scale" label="scale">
+						<value/>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="size" label="size">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="float texture" name="threshold" label="threshold">
+						<value/>
+					</parameter>
+					<parameter handler="default" listType="none" type="bool" name="tile_u" label="tile_u">
+						<value>0</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="bool" name="tile_v" label="tile_v">
+						<value>0</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="time" label="time">
+						<value>0</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="u" label="u">
+						<value>0</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="un_noise_phase" label="un_noise_phase">
+						<value>0</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="uv_noise_amount" label="uv_noise_amount">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="bool" name="uv_noise_animate" label="uv_noise_animate">
+						<value>0</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="uv_noise_levels" label="uv_noise_levels">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="bool" name="uv_noise_on" label="uv_noise_on">
+						<value>0</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="uv_noise_size" label="uv_noise_size">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="plugin" name="uvwgen" label="uvwgen">
+						<value>/CarPaint_Flakes_CobaltBlue/Base/NoiseA/UVWGenChannel#1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="v" label="v">
+						<value>0</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="w" label="w">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="bool" name="wrap" label="wrap">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="color" name="color1_tex_color" label="color1_tex_color" isUserData="1">
+						<value>
+							<r>1</r>
+							<g>1</g>
+							<b>1</b>
+						</value>
+					</parameter>
+					<parameter handler="TextureHandler" listType="none" type="acolor texture" name="color1_tex_tex" label="color1_tex_tex" isUserData="1">
+						<value/>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="color1_tex_tex_mult" label="color1_tex_tex_mult" isUserData="1">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="bool" name="color1_tex_tex_on" label="color1_tex_tex_on" isUserData="1">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="color" name="color2_tex_color" label="color2_tex_color" isUserData="1">
+						<value>
+							<r>0</r>
+							<g>0</g>
+							<b>0</b>
+						</value>
+					</parameter>
+					<parameter handler="TextureHandler" listType="none" type="acolor texture" name="color2_tex_tex" label="color2_tex_tex" isUserData="1">
+						<value/>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="color2_tex_tex_mult" label="color2_tex_tex_mult" isUserData="1">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="bool" name="color2_tex_tex_on" label="color2_tex_tex_on" isUserData="1">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="color" name="color_mult_color" label="color_mult_color" isUserData="1">
+						<value>
+							<r>1</r>
+							<g>1</g>
+							<b>1</b>
+						</value>
+					</parameter>
+					<parameter handler="TextureHandler" listType="none" type="acolor texture" name="color_mult_tex" label="color_mult_tex" isUserData="1">
+						<value/>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="color_mult_tex_mult" label="color_mult_tex_mult" isUserData="1">
+						<value>1.0</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="bool" name="color_mult_tex_on" label="color_mult_tex_on" isUserData="1">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="color" name="color_offset_color" label="color_offset_color" isUserData="1">
+						<value>
+							<r>0</r>
+							<g>0</g>
+							<b>0</b>
+						</value>
+					</parameter>
+					<parameter handler="TextureHandler" listType="none" type="acolor texture" name="color_offset_tex" label="color_offset_tex" isUserData="1">
+						<value/>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="color_offset_tex_mult" label="color_offset_tex_mult" isUserData="1">
+						<value>1.0</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="bool" name="color_offset_tex_on" label="color_offset_tex_on" isUserData="1">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="color" name="nouvw_color_color" label="nouvw_color_color" isUserData="1">
+						<value>
+							<r>0.5</r>
+							<g>0.5</g>
+							<b>0.5</b>
+						</value>
+					</parameter>
+					<parameter handler="TextureHandler" listType="none" type="acolor texture" name="nouvw_color_tex" label="nouvw_color_tex" isUserData="1">
+						<value/>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="nouvw_color_tex_mult" label="nouvw_color_tex_mult" isUserData="1">
+						<value>1.0</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="bool" name="nouvw_color_tex_on" label="nouvw_color_tex_on" isUserData="1">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="string" name="swatch_type" label="swatch_type" isUserData="1">
+						<value>3d</value>
+					</parameter>
+					<parameter handler="ComboBoxHandler" listType="none" type="integer" name="texture_multiplier_mode" label="texture_multiplier_mode" isUserData="1">
+						<value>1</value>
+					</parameter>
+				</parameters>
+			</vrayplugin>
+		</plugin>
+	</Asset>
+	<Asset renderer="vray" url="/CarPaint_Flakes_CobaltBlue/Base/coat_bump_color" type="texture" layout="">
+		<plugin>
+			<vrayplugin version="16" type="texture" name="TexCombineColor">
+				<parameters>
+					<parameter handler="default" listType="none" type="color" name="color" label="color">
+						<value>
+							<r>0</r>
+							<g>0</g>
+							<b>0</b>
+						</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="texture" name="texture" label="texture">
+						<value>/CarPaint_Flakes_CobaltBlue/Base/NoiseA</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="texture_multiplier" label="texture_multiplier">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="string" name="auto_gen" label="auto_gen" isUserData="1">
+						<value>1</value>
+					</parameter>
+				</parameters>
+			</vrayplugin>
+		</plugin>
+	</Asset>
+	<Asset renderer="vray" url="/CarPaint_Flakes_CobaltBlue/Base" type="BRDF" layout="">
+		<plugin>
+			<vrayplugin version="16" type="BRDF" name="BRDFCarPaint">
+				<parameters>
+					<parameter handler="FloatTexFrameHandler" listType="none" type="float texture" name="base_bump_amount" label="base_bump_amount">
+						<value>1</value>
+					</parameter>
+					<parameter handler="ColorTexFrameHandler" listType="none" type="texture" name="base_bump_color" label="base_bump_color">
+						<value>
+							<r>0</r>
+							<g>0</g>
+							<b>0</b>
+						</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="float texture" name="base_bump_float" label="base_bump_float">
+						<value/>
+					</parameter>
+					<parameter handler="ComboBoxHandler" listType="none" type="integer" name="base_bump_type" label="base_bump_type">
+						<value>0</value>
+					</parameter>
+					<parameter handler="ColorTexFrameHandler" listType="none" type="texture" name="base_color" label="base_color">
+						<value>
+							<r>0.014311</r>
+							<g>0.017936</g>
+							<b>0.065754</b>
+						</value>
+					</parameter>
+					<parameter handler="FloatTexFrameHandler" listType="none" type="float texture" name="base_glossiness" label="base_glossiness">
+						<value>0.7</value>
+					</parameter>
+					<parameter handler="FloatTexFrameHandler" listType="none" type="float texture" name="base_reflection" label="base_reflection">
+						<value>0.5</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="bool" name="base_traceReflections" label="base_traceReflections">
+						<value>1</value>
+					</parameter>
+					<parameter handler="FloatTexFrameHandler" listType="none" type="float texture" name="coat_bump_amount" label="coat_bump_amount">
+						<value>0.01</value>
+					</parameter>
+					<parameter handler="ColorTexFrameHandler" listType="none" type="texture" name="coat_bump_color" label="coat_bump_color">
+						<value>/CarPaint_Flakes_CobaltBlue/Base/coat_bump_color</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="float texture" name="coat_bump_float" label="coat_bump_float">
+						<value/>
+					</parameter>
+					<parameter handler="ComboBoxHandler" listType="none" type="integer" name="coat_bump_type" label="coat_bump_type">
+						<value>0</value>
+					</parameter>
+					<parameter handler="ColorTexFrameHandler" listType="none" type="texture" name="coat_color" label="coat_color">
+						<value>
+							<r>1</r>
+							<g>1</g>
+							<b>1</b>
+						</value>
+					</parameter>
+					<parameter handler="FloatTexFrameHandler" listType="none" type="float texture" name="coat_glossiness" label="coat_glossiness">
+						<value>.98</value>
+					</parameter>
+					<parameter handler="FloatTexFrameHandler" listType="none" type="float texture" name="coat_strength" label="coat_strength">
+						<value>0.05</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="bool" name="coat_traceReflections" label="coat_traceReflections">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="cutoff_threshold" label="cutoff_threshold">
+						<value>0.001</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="bool" name="doubleSided" label="doubleSided">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="texture" name="environment_override" label="environment_override">
+						<value/>
+					</parameter>
+					<parameter handler="default" listType="none" type="integer" name="environment_priority" label="environment_priority">
+						<value>0</value>
+					</parameter>
+					<parameter handler="ColorTexFrameHandler" listType="none" type="texture" name="flake_color" label="flake_color">
+						<value>
+							<r>0.243137</r>
+							<g>0.658824</g>
+							<b>1</b>
+						</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="flake_density" label="flake_density">
+						<value>4</value>
+					</parameter>
+					<parameter handler="ComboBoxHandler" listType="none" type="integer" name="flake_filtering_mode" label="flake_filtering_mode">
+						<value>1</value>
+					</parameter>
+					<parameter handler="FloatTexFrameHandler" listType="none" type="float texture" name="flake_glossiness" label="flake_glossiness">
+						<value>0.8</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="integer" name="flake_map_size" label="flake_map_size">
+						<value>1024</value>
+					</parameter>
+					<parameter handler="FloatTexFrameHandler" listType="none" type="float texture" name="flake_orientation" label="flake_orientation">
+						<value>0.2</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="flake_scale" label="flake_scale">
+						<value>0.01</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="integer" name="flake_seed" label="flake_seed">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="flake_size" label="flake_size">
+						<value>0.4</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="bool" name="flake_traceReflections" label="flake_traceReflections">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="plugin" name="flake_uvwgen" label="flake_uvwgen">
+						<value/>
+					</parameter>
+					<parameter handler="default" listType="none" type="integer" name="mapping_channel" label="mapping_channel">
+						<value>1</value>
+					</parameter>
+					<parameter handler="ComboBoxHandler" listType="none" type="integer" name="mapping_type" label="mapping_type">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="integer" name="subdivs" label="subdivs">
+						<value>8</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="bool" name="traceReflections" label="traceReflections">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="integer" name="trace_depth" label="trace_depth">
+						<value>5</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="bool" name="use_environment_override" label="use_environment_override">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="base_bump_amount_float" label="base_bump_amount_float" isUserData="1">
+						<value>1</value>
+					</parameter>
+					<parameter handler="TextureHandler" listType="none" type="texture" name="base_bump_amount_tex" label="base_bump_amount_tex" isUserData="1">
+						<value/>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="base_bump_amount_tex_mult" label="base_bump_amount_tex_mult" isUserData="1">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="bool" name="base_bump_amount_tex_on" label="base_bump_amount_tex_on" isUserData="1">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="color" name="base_bump_color_color" label="base_bump_color_color" isUserData="1">
+						<value>
+							<r>0</r>
+							<g>0</g>
+							<b>0</b>
+						</value>
+					</parameter>
+					<parameter handler="TextureHandler" listType="none" type="texture" name="base_bump_color_tex" label="base_bump_color_tex" isUserData="1">
+						<value/>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="base_bump_color_tex_mult" label="base_bump_color_tex_mult" isUserData="1">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="bool" name="base_bump_color_tex_on" label="base_bump_color_tex_on" isUserData="1">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="color" name="base_color_color" label="base_color_color" isUserData="1">
+						<value>
+							<r>0.014311</r>
+							<g>0.017936</g>
+							<b>0.065754</b>
+						</value>
+					</parameter>
+					<parameter handler="TextureHandler" listType="none" type="acolor texture" name="base_color_tex" label="base_color_tex" isUserData="1">
+						<value/>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="base_color_tex_mult" label="base_color_tex_mult" isUserData="1">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="bool" name="base_color_tex_on" label="base_color_tex_on" isUserData="1">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="base_glossiness_float" label="base_glossiness_float" isUserData="1">
+						<value>0.7</value>
+					</parameter>
+					<parameter handler="TextureHandler" listType="none" type="float texture" name="base_glossiness_tex" label="base_glossiness_tex" isUserData="1">
+						<value/>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="base_glossiness_tex_mult" label="base_glossiness_tex_mult" isUserData="1">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="bool" name="base_glossiness_tex_on" label="base_glossiness_tex_on" isUserData="1">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="base_reflection_float" label="base_reflection_float" isUserData="1">
+						<value>0.5</value>
+					</parameter>
+					<parameter handler="TextureHandler" listType="none" type="float texture" name="base_reflection_tex" label="base_reflection_tex" isUserData="1">
+						<value/>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="base_reflection_tex_mult" label="base_reflection_tex_mult" isUserData="1">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="bool" name="base_reflection_tex_on" label="base_reflection_tex_on" isUserData="1">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="coat_bump_amount_float" label="coat_bump_amount_float" isUserData="1">
+						<value>0.01</value>
+					</parameter>
+					<parameter handler="TextureHandler" listType="none" type="texture" name="coat_bump_amount_tex" label="coat_bump_amount_tex" isUserData="1">
+						<value/>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="coat_bump_amount_tex_mult" label="coat_bump_amount_tex_mult" isUserData="1">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="bool" name="coat_bump_amount_tex_on" label="coat_bump_amount_tex_on" isUserData="1">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="color" name="coat_bump_color_color" label="coat_bump_color_color" isUserData="1">
+						<value>
+							<r>0</r>
+							<g>0</g>
+							<b>0</b>
+						</value>
+					</parameter>
+					<parameter handler="TextureHandler" listType="none" type="texture" name="coat_bump_color_tex" label="coat_bump_color_tex" isUserData="1">
+						<value>/CarPaint_Flakes_CobaltBlue/Base/NoiseA</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="coat_bump_color_tex_mult" label="coat_bump_color_tex_mult" isUserData="1">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="bool" name="coat_bump_color_tex_on" label="coat_bump_color_tex_on" isUserData="1">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="color" name="coat_color_color" label="coat_color_color" isUserData="1">
+						<value>
+							<r>1</r>
+							<g>1</g>
+							<b>1</b>
+						</value>
+					</parameter>
+					<parameter handler="TextureHandler" listType="none" type="acolor texture" name="coat_color_tex" label="coat_color_tex" isUserData="1">
+						<value/>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="coat_color_tex_mult" label="coat_color_tex_mult" isUserData="1">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="bool" name="coat_color_tex_on" label="coat_color_tex_on" isUserData="1">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="coat_glossiness_float" label="coat_glossiness_float" isUserData="1">
+						<value>.98</value>
+					</parameter>
+					<parameter handler="TextureHandler" listType="none" type="float texture" name="coat_glossiness_tex" label="coat_glossiness_tex" isUserData="1">
+						<value/>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="coat_glossiness_tex_mult" label="coat_glossiness_tex_mult" isUserData="1">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="bool" name="coat_glossiness_tex_on" label="coat_glossiness_tex_on" isUserData="1">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="coat_strength_float" label="coat_strength_float" isUserData="1">
+						<value>0.05</value>
+					</parameter>
+					<parameter handler="TextureHandler" listType="none" type="texture" name="coat_strength_tex" label="coat_strength_tex" isUserData="1">
+						<value/>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="coat_strength_tex_mult" label="coat_strength_tex_mult" isUserData="1">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="bool" name="coat_strength_tex_on" label="coat_strength_tex_on" isUserData="1">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="color" name="flake_color_color" label="flake_color_color" isUserData="1">
+						<value>
+							<r>0.243137</r>
+							<g>0.658824</g>
+							<b>1</b>
+						</value>
+					</parameter>
+					<parameter handler="TextureHandler" listType="none" type="acolor texture" name="flake_color_tex" label="flake_color_tex" isUserData="1">
+						<value/>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="flake_color_tex_mult" label="flake_color_tex_mult" isUserData="1">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="bool" name="flake_color_tex_on" label="flake_color_tex_on" isUserData="1">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="flake_density_cache" label="flake_density_cache" isUserData="1">
+						<value>4</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="flake_glossiness_float" label="flake_glossiness_float" isUserData="1">
+						<value>0.8</value>
+					</parameter>
+					<parameter handler="TextureHandler" listType="none" type="float texture" name="flake_glossiness_tex" label="flake_glossiness_tex" isUserData="1">
+						<value/>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="flake_glossiness_tex_mult" label="flake_glossiness_tex_mult" isUserData="1">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="bool" name="flake_glossiness_tex_on" label="flake_glossiness_tex_on" isUserData="1">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="bool" name="flake_on" label="flake_on" isUserData="1">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="flake_orientation_float" label="flake_orientation_float" isUserData="1">
+						<value>0.2</value>
+					</parameter>
+					<parameter handler="TextureHandler" listType="none" type="float texture" name="flake_orientation_tex" label="flake_orientation_tex" isUserData="1">
+						<value/>
+					</parameter>
+					<parameter handler="default" listType="none" type="float" name="flake_orientation_tex_mult" label="flake_orientation_tex_mult" isUserData="1">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="bool" name="flake_orientation_tex_on" label="flake_orientation_tex_on" isUserData="1">
+						<value>1</value>
+					</parameter>
+					<parameter handler="ComboBoxHandler" listType="none" type="integer" name="texture_multiplier_mode" label="texture_multiplier_mode" isUserData="1">
+						<value>1</value>
+					</parameter>
+				</parameters>
+			</vrayplugin>
+		</plugin>
+	</Asset>
+	<Asset renderer="vray" url="/CarPaint_Flakes_CobaltBlue" type="material" layout="MtlSingleBRDFLayout">
+		<plugin>
+			<vrayplugin version="16" type="material" name="MtlSingleBRDF">
+				<parameters>
+					<parameter handler="default" listType="none" type="bool" name="allow_negative_colors" label="allow_negative_colors">
+						<value>0</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="plugin" name="brdf" label="brdf">
+						<value>/CarPaint_Flakes_CobaltBlue/Base</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="integer" name="double_sided" label="double_sided">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="color" name="filter" label="filter">
+						<value>
+							<r>1</r>
+							<g>1</g>
+							<b>1</b>
+						</value>
+					</parameter>
+					<parameter handler="default" listType="string" type="list" name="scene_name" label="scene_name">
+						<value>
+							<list>
+								<entry>CarPaint_Flakes_CobaltBlue</entry>
+							</list>
+						</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="bool" name="bind_all_on" label="bind_all_on" isUserData="1">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="bool" name="bind_color_on" label="bind_color_on" isUserData="1">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="bool" name="bind_opacity_on" label="bind_opacity_on" isUserData="1">
+						<value>1</value>
+					</parameter>
+					<parameter handler="ComboBoxHandler" listType="none" type="integer" name="bind_texture_mode" label="bind_texture_mode" isUserData="1">
+						<value>0</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="bool" name="bind_texture_on" label="bind_texture_on" isUserData="1">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="plugin" name="bump" label="bump" isUserData="1">
+						<value/>
+					</parameter>
+					<parameter handler="default" listType="none" type="bool" name="effected_by_mtl_override" label="effected_by_mtl_override" isUserData="1">
+						<value>1</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="string" name="swatch_type" label="swatch_type" isUserData="1">
+						<value>generic</value>
+					</parameter>
+					<parameter handler="default" listType="none" type="texture" name="viewport_texture" label="viewport_texture" isUserData="1">
+						<value/>
+					</parameter>
+				</parameters>
+			</vrayplugin>
+		</plugin>
+		<preview>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</preview>
+	</Asset>
+</vrmat>
+

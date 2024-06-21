@@ -1,0 +1,75 @@
+<vrmat version="1">
+ <preview>iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAYAAAB5fY51AAAACXBIWXMAAAsSAAALEgHS3X78AAAG00lEQVR42u3dS07rMBiAURdVSj3uMrr/fUWdZmAGCKlCtJQkdvw435A8+GuaI1fiXk632y0FSWqgD0sgCViSBCxJwJIkYEkSsCQBS5KAJUnAkgQsSQKWJAFLErAkCViSBCxJwJIkYEkSsCQBS5KAJUnAkgQsSQKWJAFLErAkCViSBCxJwJIkYEkCliQBS5KAJQlYkgQsSQKWJGBJErAkCViSgCVJwJIkYEkCliQBS5KAJQlYkgQsSQKWJGBJErAkCViSgCVJwJIkYEkCliQBS5KAJQlYkgQsScCSJGBJErAkAUuSgCVJwJI0VGdLEML1eg3TNL08J6W06th/ztly/dEz/DwWY8wyw9Z7bf055pzt1XXLsoR5noGFqxCmaQqXy6UKrJ6dW2qGtd/nHbD2mCEXWDXgtyeYPhIOGqzqmQFWAhasYAUrYMEKVrCCFbBgBasBsQIbsGAFK1gBC1awghWsgAUrWMEKWIIVrGAFrK4hgxWsYAUsWMEKVgIWrGAFK2DBClawghWwYAUrWAlYsIJVY1gBDViwghWsgDUuaLCCFayABStYwUrAghWsYAUsWMEKVrACFqxgBSsBC1awghWwYAUrWMEKWLCqHqvHY7A6Dn1gwQpWsIIVsNqGDVawghWwYNUoVqXWF1bAEqxgBStgwQpWsIIVsGBV3Qxb7w0rAQtWsIIVsGAFK1jBCliwghWsBCxYwQpWwIIVrGAFK2DVhxisYAUrYMEKVrACHLBgBStYAQtWsIIVrIAFK1jBClbAevHGgBWsYAWsrnddsIIVrIAFK1jBSsCCFaxaxQpkwIIVrGAFLFjBClawAhasYAUrYAlWsIIVsGAFK1jBClg1ggYrWMEKWLCCFawELFjBClbAghWsYAUrYMEKVrASsGAFK1gBC1awghWsgAWr6rH6PhdWsAIWrGA1GFaAA1axN+GIWJUEAFbAEqxgBStgwQpWsIIVsGAFK1gBC1aw2noPWO1zP4gBC1awsrMCFqxgBauj7wcsWMEq40cWWMEKWLCCFayABTJYwQpWwIIVrGAFK2DBClawAhasYAUrWAELVi1jtddDCSsBC1awghWwWocKVrCCFbC63nXBClawAhasYAUrAQtWsGoVK8ABC1awghWwYAUrWMEKWLCCFayApb9+rQFWsIIVsLrbfcEKVrACFqxgBSsBC1awglVbnS1BCDHGEGPM/vAc/VdUSj5g9/u9KjBz/tOrEjPAzA6rKEIjYVXb7q51rIAFLFjBClbAghWsYAUrYMEKVrASsGAFK1gBC1awghWsgNULarCCFayABStYwQpYsIIVrGqfAViwghWsYAUsWPWMVam5YQUswQpWsAIWrGAFK1gBC1bVYbXmtcIKVsCCFaxgBSyowQpWsAIWrGAFKwELVrDqdwZgCVawghWwYDUCVntcAytYAQtWsIIVsGAFK1jBCliwghWsBCxY5cTq8TxYwQpYGaCCFaxanwFYghWsYAUsWPWMVanXDitgCVawghWwYAUrWMEKWLCCFayAJVjBClbAghWsYAUrYMEKVrACFqxgBauqZwAWrGAFK1gBC1awghWsgAUrWMEKWONABStYwQpYXe64YAUrWAELVrCCFayABStYtTwDxIAFK1jBCliwghWsYAUsWMEKVgIWrGAFK2ANCxysYAUrYMEKVrASsGAFK1gBC1awghWsgAUrWI2IFdSABStY2VkBC1awgtWeWIENWLAq+NphBStgwQpWsAIWrGAFK1gBC1awghWsgAWr2rB6vAZWsAJWJZDBClalsAIZsGAFK1gBC1ajY1VqBlgBS7CCFayABStYwQpWwIIVrGAFrNGgglX++8Eqz9oBS7CCFayABStYwQpWwIIVrGAFLMEKVrACFqxgBStYAQtWqdn7wQpWwIIVrGAFLFjBClawAhasYAUrAQtWsGoTK6ABC1awghWwYAUrWMEKWLCCFawELFjBClbAGhY2WMEKVsCCFaxgJWDBClawAhasYAUrWAELVrAaESuofXW2BCEsy5L1DVIDLnvf66/r1v4/+aWwCiGE0+n09vXPzk0p/Xrs2dfXzvDOecAapHmeLUKnbX3QQeEjoSQBSxKwJAlYkgQsScCSJGBJErAkAUuSgCVJwJIELEkCliQBSxKwJAlYkgQsScCSJGBJApYlkAQsSQKWJGBJErAkCViSgCVJwJIkYEkCliQBS5KAJQlYkgQsSQKWJGBJErAkCViSgCVJwJIkYEkCliQBS5KAJQlYkgQsSQKWJGBJErAkAUuSgCVJwJIELEkCliQBSxKwJAlYkgQsScCSJGBJErAkAUuSgCVJwJIELEk6rk/Wd91ovW1sdwAAAABJRU5ErkJggg==</preview>
+ <plugin version="16" name="/UVW Placement" type="UVWGenRandomizer" class="uvw">
+  <prop name="input" type="plugin">/UVW Placement/UVW</prop>
+  <prop name="mode" type="integer">0</prop>
+  <prop name="seed" type="integer">0</prop>
+  <prop name="tile_blend" type="float">0.05</prop>
+  <prop name="variance_rot_max" type="float">360</prop>
+  <prop name="variance_rot_min" type="float">0</prop>
+  <prop name="variance_rot_step" type="float">0</prop>
+  <prop name="variance_u_max" type="float">1</prop>
+  <prop name="variance_u_min" type="float">0</prop>
+  <prop name="variance_u_step" type="float">0</prop>
+  <prop name="variance_uscale_max" type="float">100</prop>
+  <prop name="variance_uscale_min" type="float">100</prop>
+  <prop name="variance_uscale_step" type="float">0</prop>
+  <prop name="variance_v_max" type="float">1</prop>
+  <prop name="variance_v_min" type="float">0</prop>
+  <prop name="variance_v_step" type="float">0</prop>
+  <prop name="variance_vscale_max" type="float">100</prop>
+  <prop name="variance_vscale_min" type="float">100</prop>
+  <prop name="variance_vscale_step" type="float">0</prop>
+  <prop name="variance_vscale_unlocked" type="bool">0</prop>
+ </plugin>
+ <plugin version="16" name="/UVW Placement/UVW" type="UVWGenChannel" class="uvw">
+  <prop name="coverage" type="vector">
+   <c>1</c>
+   <c>1</c>
+   <c>1</c>
+  </prop>
+  <prop name="crop_u" type="integer">0</prop>
+  <prop name="crop_v" type="integer">0</prop>
+  <prop name="crop_w" type="integer">0</prop>
+  <prop name="duvw_scale" type="float">1</prop>
+  <prop name="nsamples" type="integer">0</prop>
+  <prop name="tex_transform" type="transform">
+   <c>1</c>
+   <c>0</c>
+   <c>0</c>
+   <c>0</c>
+   <c>1</c>
+   <c>0</c>
+   <c>0</c>
+   <c>0</c>
+   <c>1</c>
+   <c>0</c>
+   <c>0</c>
+   <c>0</c>
+  </prop>
+  <prop name="use_double_sided_mode" type="bool">0</prop>
+  <prop name="uvw_channel" type="integer">1</prop>
+  <prop name="uvw_transform" type="transform">
+   <c>1</c>
+   <c>0</c>
+   <c>0</c>
+   <c>0</c>
+   <c>1</c>
+   <c>0</c>
+   <c>0</c>
+   <c>0</c>
+   <c>1</c>
+   <c>0</c>
+   <c>0</c>
+   <c>0</c>
+  </prop>
+  <prop name="uvw_transform_tex" type="plugin"/>
+  <prop name="uvwgen" type="plugin"/>
+  <prop name="wrap_mode" type="integer">1</prop>
+  <prop name="wrap_u" type="integer">0</prop>
+  <prop name="wrap_v" type="integer">0</prop>
+  <prop name="wrap_w" type="integer">0</prop>
+  <prop name="lock_repeat" type="bool" custom="1">0</prop>
+  <prop name="rotation" type="float" custom="1">0</prop>
+ </plugin>
+</vrmat>
